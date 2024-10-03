@@ -12,7 +12,7 @@ const Shop = () => {
   const pricePerUnit = originalPrice;
   return (
     <>
-      <div className="bg-shop bg-center bg-cover h-[calc(100vh-200px)]">
+      <div className="bg-shop bg-center bg-cover h-[596px]">
         <Wrapper>
           <div className="font-poppins pt-[200px]">
             <h3 className="text-primary text-[18px] mb-4">We&apos;re here to help you</h3>
@@ -68,7 +68,7 @@ const Shop = () => {
                   />
                 </div>
               </div>
-              <Link href="#" className="flex justify-center">
+              <Link href="#">
                 <button className="font-sans text-white bg-secondary py-4 px-20 rounded-md ">
                   Buy
                 </button>

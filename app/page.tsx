@@ -58,11 +58,11 @@ export default function Home() {
       </div>
 
       <Wrapper>
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-20 md:gap-40 pt-16 pb-20 md:pb-40">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 md:gap-20 lg:gap-40 pt-16 pb-20 md:pb-40">
           <div className="font-poppins relative">
             <Image src="/vapePen.svg" alt="pen" width={775} height={580} />
-            <div className="hidden absolute bottom-[-48px] right-[-130px] rounded-md bg-white shadow-2xl p-6">
-              <p className="italic text-text_secondary">
+            <div className="md:absolute md:bottom-0 lg:bottom-[-20px] md:right-[-10px] lg:right-[-130px] xl:right-[-90px] rounded-md bg-white shadow-2xl p-6 lg:p-3">
+              <p className="italic text-text_secondary text-sm">
                 😊 Promotes calm and relaxation.
                 <br />
                 💤 Inhalation allows for a rapid effect.
@@ -73,7 +73,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="font-poppins">
+          <div className="font-poppins max-lg:flex max-lg:flex-col max-lg:items-center">
             <h1 className="text-primary font-bold text-4xl mb-7 max-md:text-center">Shop Now</h1>
             <p className="text-text_tertiary mb-7 opacity-60">
               Our Personal Diffuser is an aromatherapy device
@@ -94,7 +94,7 @@ export default function Home() {
       {/* Our mission section */}
       <div className="pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64">
         <div className="grid lg:grid-cols-2 gap-14 font-poppins">
-          <div>
+          <div className="max-lg:flex max-lg:flex-col max-lg:items-center">
             <h1 className="font-bold text-4xl text-primary mb-7 max-md:text-center">Our Mission</h1>
             <p className="text-text_tertiary opacity-60 mb-6">
               We started Sleepstiq with 1 simple goal: to be your
@@ -104,7 +104,7 @@ export default function Home() {
               <br /> people. That&apos;s why we created products that aim to -
             </p>
 
-            <ul className="text-text_tertiary opacity-60">
+            <ul className="text-text_tertiary opacity-60 text-left">
               <li>✓ Promote Calm</li>
               <li>✓ Support Sleep</li>
               <li>✓ Reduce Stress</li>
@@ -135,7 +135,7 @@ export default function Home() {
       </Wrapper>
 
       {/* Product reviews */}
-      <div className="mt-[92px] pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64">
+      <div className="mt-10 lg:mt-[92px] pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64">
         <h1 className="font-bold text-4xl mb-14">Product Reviews</h1>
         <div className="flex overflow-x-auto items-center gap-7 custom-scrollbar">
           {productReview.map((product) => (

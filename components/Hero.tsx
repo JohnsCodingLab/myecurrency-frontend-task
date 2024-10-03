@@ -25,8 +25,8 @@ const Hero = () => {
   ];
 
   return (
-    <>
-      <div className="bg-hero bg-center bg-cover h-[calc(100vh-100px)]">
+    <div className="relative">
+      <div className="bg-hero bg-center bg-cover h-[calc(100vh-320px)] md:h-[calc(100vh-510px)] lg:h-[596px]">
         <Wrapper>
           <div className="font-poppins pt-[200px]">
             <h3 className="text-primary text-[18px] mb-4">We&apos;re here to help you</h3>
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </Wrapper>
       </div>
-      <div className="absolute pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64 bottom-[75px] md:bottom-[70px] lg:bottom-[60px] xl:bottom-10 right-0">
+      <div className="absolute pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64 bottom-[-25px] md:bottom-[-30px] lg:bottom-[-38px] xl:bottom-[-55px] right-0">
         <div className="bg-white px-5 md:px-[72px] py-5 xl:py-10 shadow-lg">
           <div className="flex items-center justify-between gap-5 md:gap-[50px] overflow-hidden">
             {images.map((image) => (
@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
