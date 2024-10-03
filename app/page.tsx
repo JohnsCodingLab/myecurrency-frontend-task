@@ -3,7 +3,7 @@ import Wrapper from "@/components/Wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { productReview } from "@/dummyData";
-import TestimonialCard from "@/components/testimonialCard";
+import TestimonialCard from "@/components/TestimonialCard";
 
 export default function Home() {
   return (
