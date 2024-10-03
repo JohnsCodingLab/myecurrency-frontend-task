@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <div className="mt-40 md:mt-[225px] bg-primary bg-footer-texture px-5 lg:px-12 py-10">
+      <div className="bg-primary bg-footer-texture px-5 lg:px-12 py-10">
         <div className="flex flex-col items-center mb-12">
           <Image src="/icon2.svg" alt="icon" width={134} height={89} />
         </div>

@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-0 z-50 ">
-      <div className={`fixed p-3 w-full ${scrolled ? "bg-white" : ""}`}>
+      <div className={`fixed p-3 w-full ${scrolled ? "bg-white shadow-md" : ""}`}>
         <Wrapper>
           <div className="flex items-center gap-[171px] max-md:justify-between">
             <Image src="/icon.svg" alt="icon" width={92} height={62} className="max-md:w-[15%]" />

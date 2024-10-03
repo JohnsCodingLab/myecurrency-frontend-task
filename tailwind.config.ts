@@ -21,6 +21,7 @@ const config: Config = {
       backgroundImage: {
         hero: "url('/hero.png')",
         "footer-texture": "url('/texture.png')",
+        shop: "url('/shop.png')",
       },
     },
   },

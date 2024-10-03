@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </Wrapper>
       </div>
-      <div className="absolute pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64 bottom-[55px] xl:bottom-10 right-0">
+      <div className="absolute pl-4 md:pl-8 lg:pl-16 xl:pl-32 2xl:pl-64 bottom-[75px] md:bottom-[70px] lg:bottom-[60px] xl:bottom-10 right-0">
         <div className="bg-white px-5 md:px-[72px] py-5 xl:py-10 shadow-lg">
           <div className="flex items-center justify-between gap-5 md:gap-[50px] overflow-hidden">
             {images.map((image) => (
