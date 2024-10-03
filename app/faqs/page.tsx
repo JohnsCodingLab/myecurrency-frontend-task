@@ -19,14 +19,14 @@ const Faqs = () => {
         <Wrapper>
           <p className="text-xl pt-44 text-primary mb-4">We&apos;re here to help you</p>
           <h1 className="text-primary font-semibold text-6xl mb-4">How can we assist?</h1>
-          <div className="flex items-center gap-5 bg-white py-2 lg:py-5 px-5 lg:px-10 w-[400px] md:w-[500px] lg:w-[800px]">
+          <div className="flex items-center gap-5 bg-white py-2 lg:py-5 px-5 lg:px-10 w-[370px] md:w-[500px] lg:w-[800px]">
             <Image src="/search.svg" alt="search" width={32} height={32} />
             <input
               type="search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search FAQs here"
-              className="text-primary w-[700px] outline-none border-none"
+              className="p-1 text-primary w-[280px] md:w-[700px] outline-none border-none"
             />
           </div>
         </Wrapper>
